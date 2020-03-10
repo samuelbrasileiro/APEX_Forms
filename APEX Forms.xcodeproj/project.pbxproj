@@ -9,23 +9,37 @@
 /* Begin PBXBuildFile section */
 		7E7495B624167FD800F3EA68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7495B524167FD800F3EA68 /* AppDelegate.swift */; };
 		7E7495B824167FD800F3EA68 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7495B724167FD800F3EA68 /* SceneDelegate.swift */; };
-		7E7495BA24167FD800F3EA68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7495B924167FD800F3EA68 /* ViewController.swift */; };
+		7E7495BA24167FD800F3EA68 /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7495B924167FD800F3EA68 /* MainScreenViewController.swift */; };
 		7E7495BD24167FD800F3EA68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E7495BB24167FD800F3EA68 /* Main.storyboard */; };
 		7E7495C024167FD800F3EA68 /* APEX_Forms.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7E7495BE24167FD800F3EA68 /* APEX_Forms.xcdatamodeld */; };
 		7E7495C224167FDA00F3EA68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E7495C124167FDA00F3EA68 /* Assets.xcassets */; };
 		7E7495C524167FDA00F3EA68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E7495C324167FDA00F3EA68 /* LaunchScreen.storyboard */; };
+		7E7495CE2416868100F3EA68 /* QuestionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7495CD2416868100F3EA68 /* QuestionModel.swift */; };
+		7E7495D02416886A00F3EA68 /* QuestionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7495CF2416886A00F3EA68 /* QuestionViewModel.swift */; };
+		7E7495D22416AD1D00F3EA68 /* AspiraNarrowBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7E7495D12416AD1D00F3EA68 /* AspiraNarrowBold.otf */; };
+		7E7495D52416B16300F3EA68 /* AspiraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7E7495D42416B16300F3EA68 /* AspiraLight.otf */; };
+		7E7495D72416B16C00F3EA68 /* AspiraMedium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7E7495D62416B16C00F3EA68 /* AspiraMedium.otf */; };
+		7E7495D92416B7D500F3EA68 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7495D82416B7D500F3EA68 /* QuestionViewController.swift */; };
+		7E7495DB2416D9B100F3EA68 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7495DA2416D9B100F3EA68 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7E7495B224167FD800F3EA68 /* APEX Forms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "APEX Forms.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E7495B524167FD800F3EA68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7E7495B724167FD800F3EA68 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7E7495B924167FD800F3EA68 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7E7495B924167FD800F3EA68 /* MainScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewController.swift; sourceTree = "<group>"; };
 		7E7495BC24167FD800F3EA68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7E7495BF24167FD800F3EA68 /* APEX_Forms.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = APEX_Forms.xcdatamodel; sourceTree = "<group>"; };
 		7E7495C124167FDA00F3EA68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E7495C424167FDA00F3EA68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E7495C624167FDA00F3EA68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E7495CD2416868100F3EA68 /* QuestionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionModel.swift; sourceTree = "<group>"; };
+		7E7495CF2416886A00F3EA68 /* QuestionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewModel.swift; sourceTree = "<group>"; };
+		7E7495D12416AD1D00F3EA68 /* AspiraNarrowBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AspiraNarrowBold.otf; sourceTree = "<group>"; };
+		7E7495D42416B16300F3EA68 /* AspiraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AspiraLight.otf; sourceTree = "<group>"; };
+		7E7495D62416B16C00F3EA68 /* AspiraMedium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AspiraMedium.otf; sourceTree = "<group>"; };
+		7E7495D82416B7D500F3EA68 /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		7E7495DA2416D9B100F3EA68 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,14 +74,37 @@
 			children = (
 				7E7495B524167FD800F3EA68 /* AppDelegate.swift */,
 				7E7495B724167FD800F3EA68 /* SceneDelegate.swift */,
-				7E7495B924167FD800F3EA68 /* ViewController.swift */,
+				7E7495D82416B7D500F3EA68 /* QuestionViewController.swift */,
+				7E7495DA2416D9B100F3EA68 /* ResultViewController.swift */,
+				7E7495B924167FD800F3EA68 /* MainScreenViewController.swift */,
 				7E7495BB24167FD800F3EA68 /* Main.storyboard */,
-				7E7495C124167FDA00F3EA68 /* Assets.xcassets */,
+				7E7495CC2416864100F3EA68 /* Classes */,
+				7E7495D32416AD2500F3EA68 /* Extra */,
 				7E7495C324167FDA00F3EA68 /* LaunchScreen.storyboard */,
 				7E7495C624167FDA00F3EA68 /* Info.plist */,
 				7E7495BE24167FD800F3EA68 /* APEX_Forms.xcdatamodeld */,
 			);
 			path = "APEX Forms";
+			sourceTree = "<group>";
+		};
+		7E7495CC2416864100F3EA68 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7E7495CD2416868100F3EA68 /* QuestionModel.swift */,
+				7E7495CF2416886A00F3EA68 /* QuestionViewModel.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		7E7495D32416AD2500F3EA68 /* Extra */ = {
+			isa = PBXGroup;
+			children = (
+				7E7495C124167FDA00F3EA68 /* Assets.xcassets */,
+				7E7495D42416B16300F3EA68 /* AspiraLight.otf */,
+				7E7495D62416B16C00F3EA68 /* AspiraMedium.otf */,
+				7E7495D12416AD1D00F3EA68 /* AspiraNarrowBold.otf */,
+			);
+			path = Extra;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,9 +165,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E7495D52416B16300F3EA68 /* AspiraLight.otf in Resources */,
+				7E7495D72416B16C00F3EA68 /* AspiraMedium.otf in Resources */,
 				7E7495C524167FDA00F3EA68 /* LaunchScreen.storyboard in Resources */,
 				7E7495C224167FDA00F3EA68 /* Assets.xcassets in Resources */,
 				7E7495BD24167FD800F3EA68 /* Main.storyboard in Resources */,
+				7E7495D22416AD1D00F3EA68 /* AspiraNarrowBold.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,10 +181,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E7495BA24167FD800F3EA68 /* ViewController.swift in Sources */,
+				7E7495BA24167FD800F3EA68 /* MainScreenViewController.swift in Sources */,
 				7E7495B624167FD800F3EA68 /* AppDelegate.swift in Sources */,
+				7E7495D92416B7D500F3EA68 /* QuestionViewController.swift in Sources */,
+				7E7495DB2416D9B100F3EA68 /* ResultViewController.swift in Sources */,
 				7E7495B824167FD800F3EA68 /* SceneDelegate.swift in Sources */,
 				7E7495C024167FD800F3EA68 /* APEX_Forms.xcdatamodeld in Sources */,
+				7E7495D02416886A00F3EA68 /* QuestionViewModel.swift in Sources */,
+				7E7495CE2416868100F3EA68 /* QuestionModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
